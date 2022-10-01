@@ -40,9 +40,9 @@ INSTALLED_APPS = [
     'app.apps.AppConfig',
     'storages'
 ]
-AWS_ACCESS_KEY_ID = 'AKIA4VB2PI7KC4IJDSOC'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'behzodasliddinov'
+AWS_ACCESS_KEY_ID = '******************'
+AWS_SECRET_ACCESS_KEY = '******************'
+AWS_STORAGE_BUCKET_NAME = '*****************'
 AWS_S3_FILE_OVERWRITE = False
 AWS_DEFAULT_ACL = None
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
